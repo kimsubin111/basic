@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            /* ul.submenu {
+                display: none;
+            }
+            ul.mainmenu > li:hover > ul.submenu {
+                display: block;
+            } */
+            ul.submenu {
+                opacity: 0;
+            }
+            ul.mainmenu > li:hover > ul.submenu {
+                opacity: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>서브 메뉴 만들기</h1>
+        <ul class="mainmenu">
+            <li>
+                main-menu01
+                <ul class="submenu">
+                    <li>sub-menu01</li>
+                    <li>sub-menu02</li>
+                    <li>sub-menu03</li>
+                </ul>
+            </li>
+            <li>
+                main-menu02
+                <ul class="submenu">
+                    <li>sub-menu01</li>
+                    <li>sub-menu02</li>
+                    <li>sub-menu03</li>
+                </ul>
+            </li>
+            <li>
+                main-menu03
+                <ul class="submenu">
+                    <li>sub-menu01</li>
+                    <li>sub-menu02</li>
+                    <li>sub-menu03</li>
+                </ul>
+            </li>
+            <li>
+                main-menu04
+                <ul class="submenu">
+                    <li>sub-menu01</li>
+                    <li>sub-menu02</li>
+                    <li>sub-menu03</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

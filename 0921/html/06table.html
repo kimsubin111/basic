@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기</title>
+</head>
+<body>
+
+    <!-- ul>li*3 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <table border="1">
+        <tr>
+            <td colspan="3">컬러</td>
+
+        </tr>
+        <tr>
+            <td>노란색</td>
+            <td rowspan="2">100개</td>
+            <td>천호동</td>
+        </tr>
+        <tr>
+            <td>빨간색</td>
+            <td>명일동 13-1</td>
+        </tr>
+
+    <!-- table>tr*3>td*2 -->
+    <table border="1">
+        <tr>
+            <td>11111</td>
+            <td>33333</td>
+        </tr>
+        <tr>
+            <td>22222</td>
+            <td>44444</td>
+        </tr>
+        <tr>
+            <td>55555</td>
+            <td>66666</td>
+        </tr>
+    </table>
+
+    <!-- table>tr*4>td*3 -->
+    <table border="1">
+        <caption>아트박스 물품</caption>
+        <tr>
+            <th>문구류</th>
+            <th>개수</th>
+            <th>색상</th>
+        </tr>
+        <tr>
+            <td colspan="2">색종이</td>
+            <td>노란색</td>
+        </tr>
+        <tr>
+            <td>연필</td>
+            <td>300</td>
+            <td rowspan="2">빨간색</td>
+        </tr>
+        <tr>
+            <td>지우개</td>
+            <td>30,000,000</td>
+        </tr>
+    </table>
+</body>
+</html>

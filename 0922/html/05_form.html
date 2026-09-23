@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            성별: <br />
+            <label for="male">남성</label>
+            <input type="radio" name="gender" id="male" checked /> <br />
+
+            <label for="female">여성</label>
+            <input type="radio" name="gender" id="female" /> <br />
+            <!-- labal의 for와 input id가 같아야 한다. -->
+            <!-- 두 개의 radio의 name이 같아야 한다. -->
+            <!-- radio 속성은 중복 선택 불가능 -->
+            <!-- checked = 하나는 미리 선택되어 있음 -->
+        </form>
+
+        <form>
+            <p>내가 좋아하는 과일은? (중복 선택 가능)</p>
+            <input type="checkbox" name="furits" value="apple" /> 사과 <br />
+            <input type="checkbox" name="furits" value="orange" /> 오렌지 <br />
+            <input type="checkbox" name="furits" value="strawberry" /> 딸기 <br />
+            <input type="checkbox" name="furits" value="watermelon" /> 수박 <br />
+            <input type="checkbox" name="furits" value="grape" /> 포도 <br />
+            <input type="checkbox" name="furits" value="peach" /> 복숭아 <br />
+            <!-- checkbox는 중복선택 가능 -->
+            <input type="submit" value="제출" onclick="alert('제출되었습니다.')" />
+        </form>
+    </body>
+</html>
