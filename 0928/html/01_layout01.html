@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>layout - float</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #wrap {
+        width: 900px;
+        background-color: yellow;
+        margin: 0 auto;
+      }
+      #header {
+        width: 900px;
+        height: 80px;
+        background-color: #ff2020;
+        margin-bottom: 10px;
+      }
+      #nav {
+        width: 300px;
+        height: 500px;
+        background-color: #ff6868;
+        float: left;
+        margin-right: 10px;
+      }
+      #content {
+        width: 590px;
+        height: 500px;
+        background-color: #ff8c8c;
+        float: left;
+        margin-bottom: 10px;
+      }
+      #footer {
+        width: 900px;
+        height: 80px;
+        background-color: #7a5b5b;
+        clear: both;
+        /* 형제의 float의 속성을 차단 */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header">header</header>
+      <nav id="nav">nav</nav>
+      <section id="content">content</section>
+      <footer id="footer">footer</footer>
+    </div>
+  </body>
+</html>

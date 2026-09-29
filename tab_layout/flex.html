@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            #warp {
+                width: 900px;
+                height: 600px;
+                background-color: yellow;
+
+                display: flex;
+                flex-wrap: wrap;
+
+                justify-content: center;
+                align-items: center;
+                /* 2줄 이상: align-content: center; */
+            }
+
+            .box {
+                width: 100px;
+                height: 100px;
+                background-color: rgb(255 156 156);
+                border: 1px solid #000;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="warp">
+            <div class="box">box01</div>
+            <div class="box">box02</div>
+            <div class="box">box03</div>
+            <div class="box">box04</div>
+            <div class="box">box05</div>
+        </div>
+    </body>
+</html>
